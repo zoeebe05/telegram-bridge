@@ -1,3 +1,5 @@
+mkdir server
+python3 -m http.server -d server
 #!/bin/bash
 BOTPATH="${ADDR/@/"%40"}"
 BOTZIPDB="${ADDR/@/"%40"}.zip"
